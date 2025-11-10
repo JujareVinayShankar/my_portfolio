@@ -1,0 +1,90 @@
+@media (min-width: 768px) {
+      .bg-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            padding: 14px;
+      }
+
+      .icons-container {
+            width: 14%;
+      }
+}
+
+@media (max-width: 767px) {
+      .bg-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            padding: 14px;
+      }
+
+      .icons-container {
+            width: 24%;
+      }
+}
+
+.right-bg-container {
+      /* background-image: url('my_image.jpeg'); */
+}
+
+.hello-heading {
+      color: orange;
+}
+
+.hello-heading span {
+      color: purple;
+      font-size: 22px;
+}
+
+.name {
+      color: orange;
+}
+
+.i-am {
+      color: purple;
+      font-size: 22px
+}
+
+.first-name {
+      color: purple;
+}
+
+.description-head {
+      font-size: 20px;
+      color: rgb(98, 37, 155);
+}
+
+.description {
+      color: rgb(56, 36, 56);
+}
+
+.icons-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 4%;
+}
+
+.contact-link {
+      font-size: 30px;
+      text-decoration: none;
+      color: rgb(98, 37, 155);
+      transition: all 0.3s ease-in-out;
+}
+
+.contact-link:hover {
+      color: rgb(56, 36, 56);
+      transform: scale(1.2);
+}
+
+.profile-image {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid orange;
+}

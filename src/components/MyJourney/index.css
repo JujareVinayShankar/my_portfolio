@@ -1,0 +1,121 @@
+.myjourney-container {
+      background-image: linear-gradient(to bottom orange, purple);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+.my_journey-content {
+      width: 100%;
+      margin: 20px 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+.my-journey-heading {
+      font-size: 36px;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 20px
+}
+
+.my-journey-heading {
+      color: orange;
+      text-align: center;
+}
+
+.my-journey-heading span {
+      color: purple;
+}
+
+@media (max-width: 767px) {
+      .my-journey-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+      }
+
+      .center-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+      }
+
+      .journey-box {
+            width: 92%;
+
+      }
+}
+
+@media (min-width: 768px) {
+      .my-journey-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            width: 90%;
+      }
+
+      .center-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+      }
+
+      .journey-box {
+            width: 40%;
+
+      }
+}
+
+.journey-name {
+      background: linear-gradient(red, orange);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 28px;
+      text-align: start;
+      font-family: sans-serif;
+}
+
+.journey-box {
+      margin: 10px 0;
+      padding: 10px;
+      margin: 10px;
+      border: 2px solid purple;
+      border-radius: 10px;
+      min-height: 200px;
+}
+
+.journey-year {
+      color: purple;
+      font-size: 14px;
+      font-weight: 400;
+}
+
+.journey-qualification {
+      color: orange;
+      font-size: 24px;
+      /* font-weight: 600; */
+}
+
+
+.journey-area {
+      color: purple;
+      font-size: 18px;
+      font-weight: 500;
+}
+
+.journey-percentage {
+      color: purple;
+      font-size: 16px;
+      font-weight: 600;
+}
